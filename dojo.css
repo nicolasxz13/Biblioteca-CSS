@@ -1,0 +1,52 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* button class. */
+.btn {
+    color: white;
+    border-radius: 50%;
+    border-style: none;
+    background-color: #00d1b2;
+    margin-top: 1.1em;
+    margin-left: 3em;
+    font-size: 4em;
+    height: 2em;
+    width: 2em;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+/* Nav Bar */
+.nav,
+.nav * {
+    display: flex;
+    background-color: #333333;
+    font-family: 'google roboto';
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@font-face {
+    font-family: 'google roboto';
+    src: url(/font/Roboto-Light.ttf);
+}
